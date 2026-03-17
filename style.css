@@ -1,0 +1,115 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#0b0b0b;
+color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:black;
+}
+
+.logo{
+color:white;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:90vh;
+background-image:url("https://science.nasa.gov/wp-content/uploads/2024/07/pia26344-2500x.jpg?resize=1536,1091");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+padding-left:80px;
+}
+
+.hero-text h1{
+font-size:60px;
+}
+
+.hero-text p{
+max-width:500px;
+}
+
+/* INFO SECTION */
+
+.info{
+padding:80px;
+}
+
+.info-container{
+display:flex;
+gap:40px;
+align-items:center;
+}
+
+.info img{
+width:400px;
+border-radius:10px;
+}
+
+.info-text{
+max-width:500px;
+}
+
+/* GALLERY */
+
+.gallery{
+padding:80px;
+text-align:center;
+}
+
+.gallery-grid{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+}
+
+.gallery-grid img{
+width:250px;
+border-radius:10px;
+}
+
+/* FACTS */
+
+.facts h2{
+text-align:center;
+}
+
+.facts {
+    padding: 80px;
+    background: #111;
+    text-align: center; /* centers the h2 */
+}
+
+.facts ul {
+    max-width: 600px;
+    margin: 0 auto;     /* centers the list block */
+    text-align: left;   /* keeps list text readable */
+    line-height: 2;
+}
